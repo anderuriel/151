@@ -72,7 +72,13 @@
             <div class="nav-collapse collapse">
               <ul class="nav nav-pills ddmenu">
                   <li><a href="index.php?action=home">Home</a></li>
-                  <li><a href="index.php?action=login">Login</a></li>
+                  <?php
+                  if(isset($_SESSION['user']))
+                  {
+                      echo '<li><a href="index.php?action=login"> Logout</a></li>';
+                  }
+                    echo '<li><a href="index.php?action=login"> Login</a></li>';
+                  ?>
               </ul>
             </div>
           </div>
