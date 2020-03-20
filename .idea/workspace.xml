@@ -76,16 +76,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjWeb/Projet-Web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager">
     <configuration name="151BIS" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -114,6 +127,7 @@
       <workItem from="1583933790396" duration="100000" />
       <workItem from="1583933898994" duration="46000" />
       <workItem from="1583933953307" duration="3623000" />
+      <workItem from="1584547454024" duration="3884000" />
     </task>
     <servers />
   </component>
@@ -143,6 +157,10 @@
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
     <state x="506" y="194" key="#CLI_Interpreters/0.0.1853.1080@0.0.1853.1080" timestamp="1583933860610" />
+    <state x="690" y="276" key="#Notifications" timestamp="1584548897637">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="690" y="276" key="#Notifications/0.0.2194.1234/-1920.609.1858.1080@0.0.2194.1234" timestamp="1584548897637" />
     <state x="518" y="198" key="#SQL_Dialects" timestamp="1583937162837">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
@@ -155,22 +173,26 @@
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
     <state x="656" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1853.1080@0.0.1853.1080" timestamp="1582727388067" />
-    <state width="924" height="372" key="GridCell.Tab.0.bottom" timestamp="1583938648527">
-      <screen x="0" y="0" width="1853" height="1080" />
+    <state width="2151" height="346" key="GridCell.Tab.0.bottom" timestamp="1584572409262">
+      <screen x="0" y="0" width="2194" height="1234" />
     </state>
     <state width="924" height="372" key="GridCell.Tab.0.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1583938648527" />
-    <state width="924" height="372" key="GridCell.Tab.0.center" timestamp="1583938648527">
-      <screen x="0" y="0" width="1853" height="1080" />
+    <state width="2151" height="346" key="GridCell.Tab.0.bottom/0.0.2194.1234/-1920.609.1858.1080@0.0.2194.1234" timestamp="1584572409262" />
+    <state width="2151" height="346" key="GridCell.Tab.0.center" timestamp="1584572409262">
+      <screen x="0" y="0" width="2194" height="1234" />
     </state>
     <state width="924" height="372" key="GridCell.Tab.0.center/0.0.1853.1080@0.0.1853.1080" timestamp="1583938648527" />
-    <state width="924" height="372" key="GridCell.Tab.0.left" timestamp="1583938648527">
-      <screen x="0" y="0" width="1853" height="1080" />
+    <state width="2151" height="346" key="GridCell.Tab.0.center/0.0.2194.1234/-1920.609.1858.1080@0.0.2194.1234" timestamp="1584572409262" />
+    <state width="2151" height="346" key="GridCell.Tab.0.left" timestamp="1584572409262">
+      <screen x="0" y="0" width="2194" height="1234" />
     </state>
     <state width="924" height="372" key="GridCell.Tab.0.left/0.0.1853.1080@0.0.1853.1080" timestamp="1583938648527" />
-    <state width="924" height="372" key="GridCell.Tab.0.right" timestamp="1583938648527">
-      <screen x="0" y="0" width="1853" height="1080" />
+    <state width="2151" height="346" key="GridCell.Tab.0.left/0.0.2194.1234/-1920.609.1858.1080@0.0.2194.1234" timestamp="1584572409262" />
+    <state width="2151" height="346" key="GridCell.Tab.0.right" timestamp="1584572409262">
+      <screen x="0" y="0" width="2194" height="1234" />
     </state>
     <state width="924" height="372" key="GridCell.Tab.0.right/0.0.1853.1080@0.0.1853.1080" timestamp="1583938648527" />
+    <state width="2151" height="346" key="GridCell.Tab.0.right/0.0.2194.1234/-1920.609.1858.1080@0.0.2194.1234" timestamp="1584572409262" />
     <state width="924" height="372" key="GridCell.Tab.1.bottom" timestamp="1583938648527">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
@@ -211,10 +233,11 @@
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
     <state x="761" y="463" key="NewPhpFileDialog/0.0.1853.1080@0.0.1853.1080" timestamp="1582728746052" />
-    <state x="427" y="182" key="SettingsEditor" timestamp="1583933926328">
-      <screen x="0" y="0" width="1853" height="1080" />
+    <state x="187" y="237" key="SettingsEditor" timestamp="1584548889612">
+      <screen x="0" y="0" width="2194" height="1234" />
     </state>
     <state x="427" y="182" key="SettingsEditor/0.0.1853.1080@0.0.1853.1080" timestamp="1583933926328" />
+    <state x="187" y="237" key="SettingsEditor/0.0.2194.1234/-1920.609.1858.1080@0.0.2194.1234" timestamp="1584548889612" />
     <state x="589" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1583937427151">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
@@ -231,11 +254,6 @@
             <option name="methodName" value="\verifylogin" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>1</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

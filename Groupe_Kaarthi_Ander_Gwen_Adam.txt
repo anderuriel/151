@@ -1,0 +1,92 @@
+DISPLAY SNOWS
+
+button href (index?action=snows)
+
+-- INDEX ..
+
+snows()
+
+-- CONTROLER --
+fn snows (){
+	$snows = displaySnows()
+	require "XXXXXX"
+}
+
+-- MODEL --
+
+fn displaySnows() {
+	$query = SELECT * FROM snows.snows;"
+	$result = exectueQuery($query)
+
+return $result
+}
+
+-- VUE --
+
+foreach ($snows as $snow) :
+	<div>$snow['element']</div>
+end foreach
+
+
+
+DELETE SNOWS
+
+button href index?action=deleteSnow&code=<?=$snow['code']?>
+
+
+--INDEX --
+$id = $_GET['code']
+deleteSnow($id)
+
+-- CONTROLER --
+snowDeleter($id)
+
+
+--MODEL--
+
+$query = "delete from snows where code = <?=$id?>"
+$result = executeQuery($query)
+
+CREATE SNOWS
+
+
+button herf(index?action=createASnow)
+
+--INDEX--
+case createASnow :
+	fromCreateAsnow()
+	break;
+
+case addSnow :
+	addSnow()
+--CONTROLER--
+fn fromCreateASnow(){
+	require "Formulaire"
+}
+
+fn addSnow(){
+	$code = $_POST['name']
+	$brand = ......
+
+	snowCreater($code,brand, ....)
+}
+
+-- MODEL --
+
+fn snowCreater($code, $brand ......){
+	$query = "INSERT INTO snows('code', 'brand' ....) VALUES (<?=$code?>, <?=$brand?> ....)"
+	$result = executeQuery($query)
+}
+
+--VUE DU FORMULAIRE--
+
+<form method=post action=index.php?action=addSnow>
+	<input>
+	<input>
+
+
+
+<input type=submit>
+
+
+
